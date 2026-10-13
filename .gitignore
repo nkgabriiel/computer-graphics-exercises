@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
+# material exclusivo do professor (soluções e rubricas) não é publicado
+professor/
+**/professor/
+# capturas geradas pelos alunos durante a execução
+capturas/
+# arquivos temporários do Office (deck aberto)
+~$*
