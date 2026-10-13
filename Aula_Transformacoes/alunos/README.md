@@ -4,7 +4,7 @@
 **Atividade:** Mini Sistema Solar (transformações geométricas)
 **Integrantes:**
 - Gabriel de Sá Lourenço
-- NOME COMPLETO DO SEGUNDO INTEGRANTE
+- Lucas Cimino Alves
 
 ## Descrição
 O programa desenha um Sol, um planeta e uma Lua usando apenas `make_translation`, `make_rotation_z` e `make_scale`, combinadas com `@`. O Sol gira em torno do próprio centro. O planeta orbita o Sol (raio 0.6) e gira em torno do próprio eixo com velocidade diferente da órbita. A Lua orbita o planeta (raio 0.2) reaproveitando a matriz de órbita do planeta, de modo que acompanha seu movimento sem herdar a escala nem a rotação própria dele. As setas ↑ e ↓ aumentam e diminuem a velocidade da órbita, que nunca fica negativa. Todas as velocidades usam `self.deltaTime`.
